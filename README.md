@@ -54,26 +54,8 @@ Utilizando matemática no Markdown do Github
 
 ---
 
-### Matrizes
+$${\color{red}teste}$$ 
 
-```latex
-$
-\begin{bmatrix}
-0,5 & 1,6 & 0 \\
-2,3 & 0 & 1,5 \\
-3,2 & 2 & 3,4
-\end{bmatrix}
-$
-```
+$${\color{blue}outro teste}$$
 
-Exemplo:
-
-$
-\begin{bmatrix}
-0,5 & 1,6 & 0 \\
-2,3 & 0 & 1,5 \\
-3,2 & 2 & 3,4
-\end{bmatrix}
-$
-
-$${\color{red}teste}$$
+$${\color{green}outro outro teste}$$
