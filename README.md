@@ -8,11 +8,13 @@ Utilizando matemática no Markdown do Github
 |---|---|---|
 |`$\leq$`|$\leq$| Menor ou igual
 |`$\geq$`|$\geq$| Maior ou igual
-|`$$`|$$|
-|`$$`|$$|
-|`$$`|$$|
-|`$$`|$$|
-|`$$`|$$|
+|`$a_0$`|$a_0$| Primeiro valor de um conjunto
+|`$2²$`|$2²$| Potência de um valor
+|`$\infty$`|$\infty$| Símbolo de infinito
+|`$\int$`|$\int$| Símbolo de uma integral
+|`$\overrightarrow{a}$`|$\overrightarrow{a}$| Colocar uma seta encima da letra
+
+---
 
 ## Usando Símbolos lógicos
 
@@ -32,18 +34,46 @@ Utilizando matemática no Markdown do Github
 |`$$\bot$$`|$$\bot$$| é uma Contradição, significa que é sempre falso
 |`$$\equiv$$`|$$\equiv$$| é equivalência, significa que duas informações são parecidas mas não são iguais
 
+---
+
 ## Fórmulas matemáticas
 
 |Código|Símbolo gerado|significado
 |---|---|---|
 |`$$\sum\limits_{i=1}^n i$$`|$$\sum\limits_{i=1}^n i$$|É o somatório de todos de i indo de 1 até n
 |`$$\prod_{i=a}^{b} f(i)$$`|$$\prod_{i=1}^{n} i$$| É o produtório (multiplicação de todos os valores) de i indo de 1 até n
+|`$$\frac{n}{k}$$`|$$\frac{n}{k}$$| É a fração, divisão de dois números
+|`$$\binom{k}{n}$$`|$$\binom{k}{n}$$| é a fórmula de um binômio
+|`$$\sqrt[2]{144}$$`|$$\sqrt[2]{144}$$| Raiz quadrada
 |`$$$$`|$$$$
 |`$$$$`|$$$$
 |`$$$$`|$$$$
 |`$$$$`|$$$$
 |`$$$$`|$$$$
 |`$$$$`|$$$$
-|`$$$$`|$$$$
-|`$$$$`|$$$$
-|`$$$$`|$$$$
+
+---
+
+### Matrizes
+
+```latex
+$
+\begin{bmatrix}
+0,5 & 1,6 & 0 \\
+2,3 & 0 & 1,5 \\
+3,2 & 2 & 3,4
+\end{bmatrix}
+$
+```
+
+Exemplo:
+
+$
+\begin{bmatrix}
+0,5 & 1,6 & 0 \\
+2,3 & 0 & 1,5 \\
+3,2 & 2 & 3,4
+\end{bmatrix}
+$
+
+$${\color{red}teste}$$
