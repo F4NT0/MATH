@@ -13,6 +13,13 @@ Utilizando matemática no Markdown do Github
 |`$\infty$`|$\infty$| Símbolo de infinito
 |`$\int$`|$\int$| Símbolo de uma integral
 |`$\overrightarrow{a}$`|$\overrightarrow{a}$| Colocar uma seta encima da letra
+|`$$\pm$$`|$$\pm$$|Sinal de mais ou menos
+|`$$\pi$$`|$$\pi$$| Sinal do pi
+|`$$\mu$$`|$$\mu$$| Simbolo grego mu
+|`$$$$`|$$$$
+|`$$$$`|$$$$
+|`$$$$`|$$$$
+|`$$$$`|$$$$
 
 ---
 
@@ -45,35 +52,32 @@ Utilizando matemática no Markdown do Github
 |`$$\frac{n}{k}$$`|$$\frac{n}{k}$$| É a fração, divisão de dois números
 |`$$\binom{k}{n}$$`|$$\binom{k}{n}$$| é a fórmula de um binômio
 |`$$\sqrt[2]{144}$$`|$$\sqrt[2]{144}$$| Raiz quadrada
-|`$$$$`|$$$$
-|`$$$$`|$$$$
-|`$$$$`|$$$$
-|`$$$$`|$$$$
-|`$$$$`|$$$$
-|`$$$$`|$$$$
+|`$$\int\limits_a^b$$`|$$\int\limits_a^b$$| Integrais
+|`$$\lim\limits_{x \to \infty} f(x) = L$$`|$$\lim\limits_{x \to \infty} f(x) = L$$|Limites
 
 ---
 
-### Matrizes
+## Cores
+
+|Código|Símbolo gerado
+|---|---|
+|`$${\color{red}p}$$`|$${\color{red}p}$$
+|`$${\color{green}p}$$`|$${\color{green}p}$$
+|`$${\color{blue}p}$$`|$${\color{blue}p}$$
+|`$${\color{orange}p}$$`|$${\color{orange}p}$$
+|`$${\color{cyan}p}$$`|$${\color{cyan}p}$$
+|`$${\color{purple}p}$$`|$${\color{purple}p}$$
+|`$${\color{yellow}p}$$`|$${\color{yellow}p}$$
+|`$${\color{black}p}$$`|$${\color{black}p}$$
+|`$${\color{white}p}$$`|$${\color{white}p}$$
+|`$${\color{pink}p}$$`|$${\color{pink}p}$$
+
+
+## Testes
 
 ```latex
-$
-\begin{bmatrix}
-0,5 & 1,6 & 0 \\
-2,3 & 0 & 1,5 \\
-3,2 & 2 & 3,4
-\end{bmatrix}
-$
+$${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}i}} = \frac{\color{pink}n!}{\color{lightblue}k!(n-k)!}$$
 ```
 
-Exemplo:
 
-$
-\begin{bmatrix}
-0,5 & 1,6 & 0 \\
-2,3 & 0 & 1,5 \\
-3,2 & 2 & 3,4
-\end{bmatrix}
-$
-
-$${\color{red}teste}$$
+$${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}i}} = \frac{\color{pink}n!}{\color{lightblue}k!(n-k)!}$$
