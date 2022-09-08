@@ -1,29 +1,49 @@
-# MATH
-Utilizando matemática no Markdown do Github
+# $${ \color{orange} \boxed{ \color{red} Utilizando \space KATEX \space no \space Github } }$$
+
+
+* A matemática do Github é utilizando KATEX
+* Documento oficial com comandos: [Comandos](https://katex.org/docs/supported.html#logic-and-set-theory)
+
+Código do título acima
+
+```katex
+# $${ \color{orange} \boxed{ \color{red} Utilizando \space KATEX \space no \space Github } }$$
+```
+
+#### $${ \color{violet} \boxed{ \color{brown} GLOSSÁRIO } }$$
+
+
 
 ---
 
-## Usando Símbolos matemáticos
+## $${ \color{yellow} \boxed{ \color{lightgreen} Utilizando \space Símbolos \space Matemáticos } }$$
+
+
 |Código|Símbolo gerado|significado
 |---|---|---|
 |`$\leq$`|$\leq$| Menor ou igual
 |`$\geq$`|$\geq$| Maior ou igual
 |`$a_0$`|$a_0$| Primeiro valor de um conjunto
-|`$2²$`|$2²$| Potência de um valor
+|`$2^2$`|$2²$| Potência de um valor
 |`$\infty$`|$\infty$| Símbolo de infinito
 |`$\int$`|$\int$| Símbolo de uma integral
 |`$\overrightarrow{a}$`|$\overrightarrow{a}$| Colocar uma seta encima da letra
 |`$$\pm$$`|$$\pm$$|Sinal de mais ou menos
 |`$$\pi$$`|$$\pi$$| Sinal do pi
 |`$$\mu$$`|$$\mu$$| Simbolo grego mu
-|`$$$$`|$$$$
-|`$$$$`|$$$$
-|`$$$$`|$$$$
-|`$$$$`|$$$$
+|`$$\not =$$`|$$\not = $$| Símbolo de diferente
+|`$$\lbrace$$`|$$\lbrace$$| Chave da esquerda
+|`$$\rbrace$$`|$$\rbrace$$| Chave da direita
+|`$$\cancel{5}$$`|$$\cancel{5}$$ | Corta um valor
+|`$$\xcancel{ABC}$$`|$$\xcancel{ABC}$$ | Corta vários valores juntos
+|`$$\overbrace{a+b+c}$$`|$$\overbrace{a+b+c}$$| Marca um conjunto de dados
+|`$$\overbrace{a+b+c}^{\text{exemplo}}$$`|$$\overbrace{a+b+c}^{\text{exemplo}}$$| Colocar um texto encima de um conjunto
+|`$$\overbrace{a+b+c}_{\text{exemplo}}$$`|$$\overbrace{a+b+c}_{\text{exemplo}}$$| Colocar um texto embaixo de um conjunto
+|`$$\boxed{\pi = 3.1415}`|$$\boxed{\pi = 3.1415}$$| Colocar texto dentro de uma caixa
 
 ---
 
-## Usando Símbolos lógicos
+## $${ \color{purple} \boxed{ \color{lightblue} Utilizando \space Símbolos \space Lógicos } }$$
 
 |Código|Símbolo gerado|significado
 |---|---|---|
@@ -43,7 +63,7 @@ Utilizando matemática no Markdown do Github
 
 ---
 
-## Fórmulas matemáticas
+## $${ \color{white} \boxed{ \color{cyan} Utilizando \space Fórmulas \space Matemáticas } }$$
 
 |Código|Símbolo gerado|significado
 |---|---|---|
@@ -54,26 +74,43 @@ Utilizando matemática no Markdown do Github
 |`$$\sqrt[2]{144}$$`|$$\sqrt[2]{144}$$| Raiz quadrada
 |`$$\int\limits_a^b$$`|$$\int\limits_a^b$$| Integrais
 |`$$\lim\limits_{x \to \infty} f(x) = L$$`|$$\lim\limits_{x \to \infty} f(x) = L$$|Limites
+|`$$\begin{vmatrix} a & b \newline c & d \end{vmatrix}$$`|$$\begin{vmatrix} a & b \newline c & d \end{vmatrix}$$| Matrizes
+
+Se deseja comentar a fórmula ao lado 
+
+```katex
+$$\tag{Somatório} \sum$$
+```
+
+$$\tag{Somatório} \sum$$
 
 ---
 
-## Cores
+## $${ \color{pink} \boxed{ \color{lightblue}C \color{lightgreen}O \color{red}R \color{cyan}E \color{purple}S } }$$
 
 |Código|Símbolo gerado
 |---|---|
-|`$${\color{red}p}$$`|$${\color{red}p}$$
-|`$${\color{green}p}$$`|$${\color{green}p}$$
-|`$${\color{blue}p}$$`|$${\color{blue}p}$$
-|`$${\color{orange}p}$$`|$${\color{orange}p}$$
-|`$${\color{cyan}p}$$`|$${\color{cyan}p}$$
-|`$${\color{purple}p}$$`|$${\color{purple}p}$$
-|`$${\color{yellow}p}$$`|$${\color{yellow}p}$$
-|`$${\color{black}p}$$`|$${\color{black}p}$$
-|`$${\color{white}p}$$`|$${\color{white}p}$$
-|`$${\color{pink}p}$$`|$${\color{pink}p}$$
+|`$${\color{red}COR}$$`|$${\color{red}COR}$$
+|`$${\color{green}COR}$$`|$${\color{green}COR}$$
+|`$${\color{blue}COR}$$`|$${\color{blue}COR}$$
+|`$${\color{orange}COR}$$`|$${\color{orange}COR}$$
+|`$${\color{cyan}COR}$$`|$${\color{cyan}COR}$$
+|`$${\color{purple}COR}$$`|$${\color{purple}COR}$$
+|`$${\color{yellow}COR}$$`|$${\color{yellow}COR}$$
+|`$${\color{black}COR}$$`|$${\color{black}COR}$$
+|`$${\color{white}COR}$$`|$${\color{white}COR}$$
+|`$${\color{pink}COR}$$`|$${\color{pink}COR}$$
+|`$${\color{magenta}COR}$$`|$${\color{magenta}COR}$$
+|`$${\color{teal}COR}$$`|$${\color{teal}COR}$$
+|`$${\color{violet}COR}$$`|$${\color{violet}COR}$$
+|`$${\color{lightgray}COR}$$`|$${\color{lightgray}COR}$$
+|`$${\color{lime}COR}$$`|$${\color{lime}COR}$$
+|`$${\color{olive}COR}$$`|$${\color{olive}COR}$$
+|`$${\color{brown}COR}$$`|$${\color{brown}COR}$$
 
+---
 
-## Testes
+## $${ \color{teal} \boxed{ \color{magenta} TESTES } }$$
 
 ```latex
 $${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}i}} = \frac{\color{pink}n!}{\color{lightblue}k!(n-k)!}$$
@@ -81,5 +118,3 @@ $${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}
 
 
 $${\color{red}\sum\limits_{\color{lightblue}i=0}^{\color{orange}n} {\color{pink}i}} = \frac{\color{pink}n!}{\color{lightblue}k!(n-k)!}$$
-
-$$\sum\limits_{i=0}^n i^2$$
