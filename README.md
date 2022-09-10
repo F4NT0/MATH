@@ -8,7 +8,7 @@
 
 ### Código do título acima
 
-```katex
+```latex
 # $${ \color{orange} \boxed{ \color{red} Utilizando \space KATEX \space no \space Github } }$$
 ```
 
@@ -107,7 +107,7 @@ Hoje, após ${\color{red}10}$ dias, estaremos livres.
 
 ### Se deseja comentar a fórmula ao lado 
 
-```katex
+```latex
 $$\tag{Somatório} \sum$$
 ```
 
